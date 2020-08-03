@@ -6,6 +6,8 @@ import (
 	"github.com/binaryfigments/nessusparse"
 )
 
+// This is for testing and playing only!!!
+
 func main() {
 	nessus, err := nessusparse.Run("../test001.nessus")
 	if err != nil {
